@@ -15,7 +15,7 @@ A reliable Python-based directory synchronization tool designed as a robust alte
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/sync-guardian.git
+git clone https://github.com/moijafcor/sync-guardian.git
 cd sync-guardian
 pip install -r requirements.txt
 ```
