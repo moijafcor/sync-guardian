@@ -1,0 +1,13 @@
+# Ignore all files in this directory
+*
+
+# Except this .gitignore file
+!.gitignore
+
+# Ignore all directories
+*/
+
+# This combination will:
+# 1. Keep the logs/ directory in git (useful for project structure)
+# 2. Ignore all log files and subdirectories
+# 3. Prevent any log files from being accidentally committed
