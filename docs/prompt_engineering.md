@@ -62,6 +62,13 @@ Ninth prompt: "Can you please write a gitignore file for inside the logs directo
 - Created specialized .gitignore for logs directory
 - Configured to track directory but ignore contents
 
+### 10. Cross-Platform Support
+Tenth prompt: "Could you please update the README to include setup instructions for MacOS and Linux?"
+- Added macOS setup instructions using launchd
+- Added Linux setup instructions using cron
+- Updated path examples to be platform-neutral
+- Enhanced documentation for cross-platform compatibility
+
 ## Key Decisions
 
 1. **Tool Name**: Selected "sync-guardian" as it captures the protective and reliable nature of the tool
@@ -70,6 +77,7 @@ Ninth prompt: "Can you please write a gitignore file for inside the logs directo
 4. **Documentation**: Comprehensive README with clear installation and usage instructions
 5. **Version Control**: Carefully configured .gitignore files to maintain proper structure while ignoring temporary files
 6. **Package Management**: Proper Python package initialization with version tracking and exports
+7. **Cross-Platform Support**: Extended functionality beyond Windows to include macOS and Linux scheduling options
 
 ## Repository Description
 Final tagline: "Reliable directory synchronization for Windows with task scheduling - a robust alternative to cloud sync"
@@ -92,4 +100,4 @@ sync-guardian/
 └── LICENSE               # MIT License
 ```
 
-This documentation was created to provide transparency about the development process and serve as a reference for future development.
+This documentation was created to provide transparency about the development process and serve as a reference for future development. The evolution from a Windows-specific tool to a cross-platform solution demonstrates the project's commitment to accessibility and broad usability.
